@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "https://libraryapplicationfrontend.herokuapp.com/")
 @RequestMapping("/api")
 public class CategoryRestController {
 
